@@ -1,0 +1,9 @@
+{
+    "name": "示例用户",
+    "age": 18,
+    "is_student": false,
+    "courses": [
+        "math",
+        "english"
+    ]
+}
