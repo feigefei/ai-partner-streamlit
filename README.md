@@ -1,6 +1,6 @@
 # AI 智能伴侣
 
-学习黑马程序员课程过程中完成的 Python 项目，使用 Streamlit 构建界面，通过 OpenAI Python SDK 调用 DeepSeek API。
+这是学习黑马程序员课程过程中完成的 Python 项目，使用 Streamlit 构建界面，通过 OpenAI Python SDK 调用 DeepSeek API。
 
 ## 功能
 
@@ -41,12 +41,9 @@ export DEEPSEEK_API_KEY="替换为你自己的 DeepSeek API Key"
 | `ai_partner_2.py` | 中间版本，包含角色设置、多轮对话和流式输出 |
 | `ai_partner_1.py` | 最初版本，展示基本聊天界面和单次模型调用 |
 | `deepseek调用.py` | DeepSeek API 调用练习 |
-| `streamlit测试.py` | Streamlit 组件练习 |
-| `file操作入门.py`、`json模块入门演示.py` | 文件与 JSON 学习练习，保留学习时的代码 |
-| `resources/` | 界面图片和练习用数据 |
+| `resources/` | 界面图片 |
 
-历史会话由程序保存到运行目录下的 `sessions/`，其中包含聊天内容。该目录、密钥配置及虚拟环境均已通过 `.gitignore` 排除，不提交到仓库。
+历史会话由程序保存到运行目录下的 `sessions/`，其中包含聊天内容。
 
-这是个人课程学习项目，保留了学习过程中的多个版本和练习文件；完整应用请从 `ai_partner_3.py` 启动。会话使用本地文件保存，没有多用户隔离或登录功能。
+这是个人课程学习项目,完整应用请从 `ai_partner_3.py` 启动。会话使用本地文件保存，没有多用户隔离或登录功能。
 
-JSON 练习优先读取本地 `resources/user.json`；该文件已排除上传。首次克隆时自动使用 `resources/user.example.json` 中的虚构示例数据。
